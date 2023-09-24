@@ -52,7 +52,7 @@ while running : # boucle infinie pour laisser la fenêtre ouverte
     screen.blit(tir.image,[tir.depart,tir.hauteur]) # appel de la fonction qui dessine le vaisseau du joueur        
     # la balle
     tir.bouger()
-    screen.blit(player.image,[player.position,500]) # appel de la fonction qui dessine le vaisseau du joueur
+    screen.blit(player.image,[player.position, 500]) # appel de la fonction qui dessine le vaisseau du joueur
     # les ennemis
     for extra in listeEnnemis:
         extra.avancer()

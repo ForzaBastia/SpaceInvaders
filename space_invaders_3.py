@@ -14,7 +14,7 @@ fond = pygame.image.load('background.png')
 # creation du joueur
 player = space.Joueur()
 # creation de la balle
-tir = space.Balle(player)
+tir = space.Balle()
 tir.etat = "chargee"
 
 ### BOUCLE DE JEU  ###

@@ -37,7 +37,7 @@ while running : # boucle infinie pour laisser la fenêtre ouverte
 
     ### Actualisation de la scene ###
     # deplacement des objets
-    player.deplacer(player.position,500)
+    player.deplacer()
     # dessins des objets        
     screen.blit(player.image,(player.position,500))
 
