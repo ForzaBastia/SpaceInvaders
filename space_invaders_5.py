@@ -51,7 +51,7 @@ while running : # boucle infinie pour laisser la fenêtre ouverte
         if tir.toucher(ennemi):
             ennemi.disparaitre()
             player.marquer()
-    print(f"Score = {player.score} points")
+            print(f"Score = {player.score} points")
     # placement des objets
     # le joueur
     player.deplacer()
